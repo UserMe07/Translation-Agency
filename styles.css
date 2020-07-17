@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+}
+
+header {
+    background-color: whitesmoke;
+    height: 100px;
+    padding-top: 30px;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: solid;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: underline;
+    padding-top: 20px;
+}
+
+.AboutUs {
+    background-image: url("../images/aboutus-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 289px;
+    color: black;
+    text-align: center;
+    opacity: 0.8;
+    z-index: 1;
+    position: relative;
+}
+
+#header2, #para2 {
+    background-color: whitesmoke;
+    z-index: 2;
+    vertical-align: middle;
+}
+
+#header2 {
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    margin: 1px;
+}
+
+#para2 {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    font-size: medium;
+}
+
+.OurMission {
+    background-color: white;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.Title {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.Languages {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+#French {
+    position: absolute;
+    top: 45%;
+    left: 5%;
+}
+
+#FlagofUSA {
+    position: absolute;
+    left: 20%;
+}
+
+#English {
+    position: absolute;
+    top: 45%;
+    left: 25%;
+}
+
+#FlagofItaly {
+    position: absolute;
+    left: 40%;
+}
+
+#Italian {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+}
+
+.OurTeam {
+    background-color: whitesmoke;
+}
+
+.TeamPhotos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img {
+    border-radius: 15px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.name {
+    font-size: x-large;
+    margin: 5px 10px;
+}
+
+.job {
+    font-size: medium;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: white;
+    text-align: center;
+}
+
+.footer1 {
+    margin: 10px;
+}
+
+#contact {
+    padding-top: 10px;
+}
+
+#copyright {
+    font-size: x-small;
+}
